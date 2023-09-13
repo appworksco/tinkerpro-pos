@@ -1,0 +1,89 @@
+body {background-color: #404040;}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.text-custom-warning {color: #ff7d00;}
+.text-custom-light {color: #404040;}
+.text-custom-lighter {color: #696969;}
+.bg-custom-dark {background-color: #262626;}
+/* Money font */
+.money-font {
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+/* Fetching data progress bar */
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-image: linear-gradient(to left, #d51f1c, #ff8d10);
+}
+.bg-gradient-to-right {background-image: linear-gradient(to right, #d51f1c, #ff8d10);}
+.bg-gradient-to-left {background-image: linear-gradient(to left, #d51f1c, #ff8d10);}
+.custom-border {
+  border-left: 3px solid #d51f1c;
+  border-right: 3px solid #d51f1c;
+  border-bottom: 3px solid #d51f1c;
+}
+body.modal-open > .container-fluid,
+body.modal-open > .container {
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+}
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: linear-gradient(to right, #d51f1c, #ff8d10);
+  height: 100vh;
+}
+.form-card {
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+  margin: auto;
+}
+.form-card .form .date {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;}
+
+/* POS Main Wrapper */
+.pos-main-wrapper {height: calc(100vh - 370px);}
+.pos-main-wrapper .col-8 {
+  display: flex;
+  align-items: center;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.pos-main-wrapper .col-lg-8 .pos-transaction-body {
+  background-color: #262626 !important;
+  height: calc(100vh - 200px);
+}
+.pos-main-wrapper .col-4 img {width: 90%;}
+
+/* POS Settings */
+.pos-settings {
+  background-color: #d51f1c;
+  height: 105px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+.pos-settings .setting-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 8px;
+}
+.pos-settings .setting-icon p {margin-bottom: 0;}
+.pos-settings img {width: 50px;}
